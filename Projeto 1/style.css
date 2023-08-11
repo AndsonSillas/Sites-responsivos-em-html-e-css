@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    margin:47px 0px 0px 42px;
+}
+
+a{
+    width: 83px;
+    color:rgba(23, 35, 61, 1);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right:32px;
+    cursor:pointer;
+}
+
+.botao-menu{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    color:rgba(255, 255, 255, 1);
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    margin-right:32px;
+    cursor:pointer;
+}
+
+div{
+    display: inline-block;
+    margin:0px 96.83px 0px 121px;
+    margin-top:100px;
+}
+
+section{
+    display:inline-block;
+    width:400px;
+    height: 400px;
+    background-color:;
+    position:relative;
+    bottom:80px;
+    margin-left:96.83px;
+
+}
+
+h1{
+    width:582px;
+    height:164px;
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 132.258% */
+    letter-spacing: 0.596px;
+    }
+
+p{
+    width:400px;
+    height:99px;
+    background-color:   ;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+    letter-spacing: 0.5px;
+}
+
+.botao-final{
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-top:55px;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1314px) {
+
+ 
+    div{
+        display: block;
+        position: relative;
+        top:330px;
+        margin-left:89px;
+       
+
+    }
+
+    img{
+        width: 279.921px;
+        height: 268.932px;
+    }
+   
+    section{
+        display:block;
+        position:relative;
+        bottom:320px;
+    }
+
+
+    a{
+        display:none;
+    }
+
+    .botao-menu{
+        width: 91px;
+        height: 31px;
+        border-radius: 6px;
+        border: 1px solid #4CB538;
+        background: #6FBF44;
+        margin-left:260px;
+    }
+
+    h1{
+        width: 278px;
+        height:60px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 100% */
+        letter-spacing: 0.596px;
+        background-color:;
+        text-align: center;
+    }
+
+    p{
+        width: 240px;
+        height:160px;
+        background-color:;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px; /* 183.333% */
+        letter-spacing: 0.5px;
+        text-align:justify;
+        margin:30px 0px 0px 20px;
+    }
+
+    .botao-final{
+        margin-left:80px;
+    }
+
+}
