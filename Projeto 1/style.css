@@ -39,13 +39,15 @@ div{
 }
 
 section{
-    display:inline-block;
+    display:block;
     width:400px;
     height: 400px;
     background-color:;
     position:relative;
     bottom:80px;
-    margin-left:96.83px;
+	bottom:500px;
+    margin-left: 800px;
+	
 
 }
 
@@ -58,6 +60,7 @@ h1{
     font-weight: 700;
     line-height: 82px; /* 132.258% */
     letter-spacing: 0.596px;
+	margin-top:80px;
     }
 
 p{
@@ -83,29 +86,35 @@ p{
     cursor:pointer;
 }
 
-@media screen and (max-width:1314px) {
+@media screen and (max-width:500px) {
 
  
     div{
-        display: block;
-        position: relative;
+        display:block;
         top:330px;
-        margin-left:89px;
+        margin-left:px;
        
 
     }
-
+	
     img{
-        width: 279.921px;
-        height: 268.932px;
+        width: 300px;
+        height: 268px;
+		margin-left:-100px;
+		margin-top:-80px;
     }
    
-    section{
-        display:block;
-        position:relative;
-        bottom:320px;
-    }
+	section{
+		display:block;
+		width:400px;
+		height: 400px;
+		background-color:;
+		position:relative;
+		bottom:70px;
+		margin-left:0;
+	
 
+	}
 
     a{
         display:none;
@@ -150,7 +159,8 @@ p{
     }
 
     .botao-final{
-        margin-left:80px;
+        margin-left:40px;
+		margin-top:30px;
     }
 
 }
